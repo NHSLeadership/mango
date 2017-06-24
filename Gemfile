@@ -29,8 +29,12 @@ gem 'jbuilder', '~> 2.5'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
+gem 'mysql2'
 
 gem 'devise'
+gem 'devise_invitable'
+gem 'devise-encryptable'
+gem 'devise_zxcvbn'
 gem 'doorkeeper'
 
 group :development, :test do

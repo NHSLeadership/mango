@@ -1,0 +1,11 @@
+development:
+  pepper: 'pepper'
+  secret_key: 'secret_key'
+
+test:
+  pepper: 'pepper'
+  secret_key: 'secret_key'
+
+production:
+  pepper: <%= ENV['PEPPER'] %>
+  secret_key: <%= ENV['SECRET_KEY'] %>
